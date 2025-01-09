@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2e6d5; 
+            background-image: url('background_image.jpg'); 
+            background-size: cover; 
+            background-position: center center; 
+            color: #3e2723; 
+        }
+
+        header {
+            background-color: #3e2723; 
+            color: #f2e6d5; 
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #d7ccc8; 
+        }
+
+        header h1 {
+            font-family: Georgia, serif;
+            font-size: 2.5em;
+            margin: 0;
+            color: #f2e6d5; 
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 5px 0;
+            font-style: italic;
+            color: #f2e6d5; 
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #5d4037; 
+            overflow: hidden;
+            text-align: center; 
+        }
+
+        nav a {
+            display: inline-block;
+            font-family: Georgia, serif;
+            color: #f2e6d5; 
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #8d6e63; 
+            color: #3e2723; 
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+            font-family: Georgia, serif;
+        }
+
+        .experience-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .experience-container h2 {
+            font-size: 2.5rem;
+            color: #3e2723; 
+            margin-bottom: 30px;
+        }
+
+        .experience-grid {
+            display: flex; 
+            justify-content: space-around; 
+            gap: 20px;
+            flex-wrap: wrap; 
+        }
+
+        .experience-box {
+            background-color: #e1c6b2; 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            width: 300px; 
+            text-align: center;
+            border: 2px solid #d7ccc8; 
+        }
+
+        .experience-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .experience-box h3 {
+            font-size: 1.8rem;
+            font-family: Georgia, serif;
+            color: #3e2723; 
+            margin-bottom: 15px;
+        }
+
+        .experience-box p {
+            font-size: 1rem;
+            font-family: Georgia, serif;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        .experience-box strong {
+            font-family: Georgia, serif;
+            color: #3e2723;
+        }
+
+        .experience-box img {
+            width: 100%; 
+            height: auto; 
+            object-fit: contain; 
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #3e2723;
+            color: #f2e6d5;
+            text-align: center;
+            font-family: Georgia, serif;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .experience-grid {
+                flex-direction: column; 
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Where Path Began</h1>
+        <p>Great to have you here!</p>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="family.html">Family</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contactme.html">Contact Me</a>
+    </nav>
+
+    <section id="Experience">
+        <div class="experience-container">
+            <h2>Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-box">
+                    <img src="images/pmv.jpg" alt="Prime Mover Club">
+                    <h3>Prime Mover Club</h3>
+                    <p><strong>Duration:</strong> 2022 - 2024</p>
+                    <p><strong>Role:</strong> Head of The Documentation and Administration Bureau</p>
+                </div>
+                <div class="experience-box">
+                    <img src="images/ais.jpg" alt="Assosiation of Information Scientist">
+                    <h3>Assosiation of Information Scientist (AIS)</h3>
+                    <p><strong>Duration:</strong> 2022 - Present</p>
+                    <p><strong>Role:</strong> 
+                        <ul>
+                            <li>Bureau Secretariat Entrepreneurship (2022)</li>
+                            <li>Head of The Entrepreneurship Bureau 2023 - Present</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="experience-box">
+                    <img src="images/mpt.jpg" alt="Majlis Perbandaran Temerloh (MPT)">
+                    <h3>Internships in Majlis Perbandaran Temerloh (MPT)</h3>
+                    <p><strong>Duration:</strong> July 2024 - September 2024</p>
+                    <p><strong>Role:</strong> Intern in Building Control Department</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nurhafizah Ahmad. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

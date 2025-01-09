@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet My Family</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2e6d5; 
+            background-image: url('background_image.jpg');
+            background-size: cover; 
+            background-position: center center; 
+            color: #3e2723; 
+        }
+
+        header {
+            background-color: #3e2723; 
+            color: #f2e6d5; 
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #d7ccc8; 
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 5px 0;
+            font-style: italic;
+        }
+
+        nav {
+            background-color: #5d4037; 
+            overflow: hidden;
+            text-align: center; 
+        }
+
+        nav a {
+            display: inline-block;
+            color: #f2e6d5; 
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #8d6e63; 
+            color: #3e2723; 
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            gap: 1rem; 
+        }
+
+        .family-member {
+            background-color: #d7ccc8; 
+            margin: 0; 
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            text-align: center; 
+            transition: transform 0.3s, box-shadow 0.3s;
+            flex: 0 0 calc(50% - 1rem); 
+            box-sizing: border-box;
+        }
+
+        .family-member:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        .family-member img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 10px; 
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #4e342e; 
+            color: #f8ebe4;
+            margin-top: 2rem;
+        }
+
+        .welcome {
+            text-align: center;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Where Path Began</h1>
+        <p>Great to have you here!</p>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="education.html">Education</a>
+        <a href="experience.html">Experience</a>
+        <a href="family.html">Family</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contactme.html">Contact Me</a>
+    </nav>
+
+    <div class="welcome">
+        <h1>Welcome to My Family Page</h1>
+        <p>Get to know the wonderful people in my family!</p>
+    </div>
+
+    <div class="container">
+        <div class="family-member">
+            <img src="images/abah.jpg" alt="Dad">
+            <h2>Dad</h2>
+            <p>Name: Ahmad Bin Abdullah</p>
+            <p>61 years old</p>
+            <p>Date of Birth: 30 July 1964</p>
+        </div>
+
+        <div class="family-member">
+            <img src="images/ummi.jpg" alt="Mom">
+            <h2>Mom</h2>
+            <p>Name: Asiah Binti Hassan</p>
+            <p>58 years old</p>
+            <p>Date of Birth: 10 January 1967</p>
+        </div>
+
+        <div class="family-member">
+            <img src="images/kaklong.jpg" alt="Sibling 1">
+            <h2>Sibling 1</h2>
+            <p>Name: Nurmunirah Binti Ahmad</p>
+            <p>32 years old</p>
+            <p>Date of Birth: 10 December 1993</p>
+        </div>
+
+        <div class="family-member">
+            <img src="images/ngoh.jpg" alt="Sibling 2">
+            <h2>Sibling 2</h2>
+            <p>Name: Fathurrahman Bin Ahmad</p>
+            <p>30 years old</p>
+            <p>Date of Birth: 4 July 1995</p>
+        </div>
+
+        <div class="family-member">
+            <img src="images/chik.jpg" alt="Sibling 3">
+            <h2>Sibling 3</h2>
+            <p>Name: Waqiuddin Bin Ahmad</p>
+            <p>28 years old</p>
+            <p>Date of Birth: 5 November 1997</p>
+        </div>
+
+        <div class="family-member">
+            <img src="images/kakak.jpg" alt="Sibling 4">
+            <h2>Sibling 4</h2>
+            <p>Name: Nurhazirah Binti Ahmad</p>
+            <p>26 years old</p>
+            <p>Date of Birth: 1 November 1997</p>
+        </div>
+
+        <div class="family-member">
+            <img src="images/chah.jpg" alt="Sibling 5">
+            <h2>Sibling 5</h2>
+            <p>Name: Nuraishah Binti Ahmad</p>
+            <p>23 years old</p>
+            <p>Date of Birth: 6 June 2002</p>
+        </div>
+
+        <div class="family-member">
+            <img src="images/myself.jpg" alt="Sibling 5">
+            <h2>Myself</h2>
+            <p>Name: Nurhafizah Binti Ahmad</p>
+            <p>21 years old</p>
+            <p>Date of Birth: 3 August 2004</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Nurhafizah Ahmad. All rights reserved.</p>
+    </footer>
+</body>
+</html>
